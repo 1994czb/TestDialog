@@ -1,10 +1,10 @@
-apply plugin: 'com.android.application'
-
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.1994czb'
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
     defaultConfig {
-        applicationId "com.example.administrator.mylibrary"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
